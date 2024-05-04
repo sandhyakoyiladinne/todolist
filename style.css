@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+.main{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+button:hover{
+    color: red;
+}
+#addbtn{
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#addbtn:hover{
+    background-color: #0056b3;
+}
+input{
+    padding: 8px;
+    margin-bottom: 10px;
+    margin: 20px;
+    
+}
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.todo-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.todo-list li:last-child {
+    border-bottom: none;
+}
+.todo-list li.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
